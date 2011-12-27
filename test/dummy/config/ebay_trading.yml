@@ -1,0 +1,6 @@
+test:
+  url: https://api.ebay.com/ws/api.dll
+  dev_name: add-your-dev-name
+  app_name: add-your-app-name
+  cert_name: add-your-app-cert-name
+  auth_token: add-your-token
