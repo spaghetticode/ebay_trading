@@ -38,4 +38,4 @@ require 'ebay_trading/response'
 require 'ebay_trading/call_name'
 require 'ebay_trading/money'
 require 'ebay_trading/get_item'
-require 'ebay_trading/railtie'
+require 'ebay_trading/railtie' if defined?(Rails)
