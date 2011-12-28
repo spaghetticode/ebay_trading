@@ -12,11 +12,11 @@ module EbayTrading
     end
 
     def final_price
-      !quantity_sold.zero? && Money.new(selling_status.at('CurrentPrice')) || 0
+      !quantity_sold.zero? && Money.new(selling_status.at('CurrentPrice')) || Money.new
     end
 
     def final_price_in_usd
-      !quantity_sold.zero? && Money.new(selling_status.at('ConvertedCurrentPrice')) || 0
+      !quantity_sold.zero? && Money.new(selling_status.at('ConvertedCurrentPrice')) || Money.new
     end
 
     def current_price
